@@ -1,0 +1,35 @@
+{
+  "name": "whois-lookup-frontend",
+  "version": "1.0.0",
+  "description": "React TypeScript frontend for Whois Lookup application",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "preview": "vite preview --port 5173",
+    "type-check": "tsc --noEmit",
+    "lint": "eslint src --ext ts,tsx --report-unused-disable-directives --max-warnings 0"
+  },
+  "dependencies": {
+    "react": "18.2.0",
+    "react-dom": "18.2.0"
+  },
+  "devDependencies": {
+    "@types/react": "18.2.45",
+    "@types/react-dom": "18.2.18",
+    "@vitejs/plugin-react": "4.2.1",
+    "typescript": "5.5.4",
+    "vite": "5.4.2"
+  },
+  "keywords": [
+    "whois",
+    "domain",
+    "lookup",
+    "react",
+    "typescript",
+    "vite"
+  ],
+  "author": "TLV300-WHOISAPI",
+  "license": "MIT"
+}

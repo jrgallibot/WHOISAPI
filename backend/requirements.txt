@@ -1,0 +1,12 @@
+# Core Flask framework
+flask==3.0.0
+
+# HTTP requests library
+requests==2.32.3
+
+# Environment variable management
+python-dotenv==1.0.1
+
+# MySQL database connector (optional)
+# Install only if you want database logging
+mysqlclient==2.2.4
